@@ -24,6 +24,19 @@ body {
     font-size: 2rem;/*Hacerlo pequeño*/
 }
 
-.navegacion-principal{
+.contenedor{
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg{/*alargamiento de navegacion*/
     background-color: var(--secundario);
+}
+.navegacion-principal{
+    padding: 1rem;
+}
+
+.navegacion-principal{
+    color: var(--blanco);
+    text-decoration: none;
 }
