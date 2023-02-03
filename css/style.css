@@ -33,7 +33,6 @@ body {
     background-color: var(--secundario);
 }
 .navegacion-principal{
-    padding: 1rem;
     display: flex;
     justify-content: space-between; /*Alarja el menu*/
 }
@@ -41,4 +40,11 @@ body {
 .navegacion-principal a{ /*menu barra*/
     color: var(--blanco);
     text-decoration: none; /*elimina el subrayado*/
+    font-size: 2rem; /*tamaño de letra*/
+    font-weight: 700; /*bold = negritas*/
+    padding: 1rem; /*espacio de afuera hacia dentro */
+}
+.navegacion-principal a:hover{/*pseudo clases que inspeciona al elemento*/
+    background-color: var(--primario); /*fondo amarillo de la barra*/
+    color: var(--oscuro); /*hacer cambiar negro*/
 }
