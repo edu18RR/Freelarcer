@@ -48,3 +48,9 @@ body {
     background-color: var(--primario); /*fondo amarillo de la barra*/
     color: var(--oscuro); /*hacer cambiar negro*/
 }
+
+@media (min-width: 480px){
+    body{
+        background-color: aqua;
+    }
+}
