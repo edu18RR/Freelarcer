@@ -25,14 +25,14 @@ body {
 }
 
 .contenedor{
-    width: 120rem;
+    max-width: 120rem; /*barra toma el espaco disponible si no el 100%*/
     margin: 0 auto;
 }
 
 .nav-bg{/*alargamiento de navegacion*/
     background-color: var(--secundario);
 }
-.navegacion-principal{
+.navegacion-principal {
     display: flex;
     flex-direction: column; /*se columna se hace pequeño */
 }
@@ -40,13 +40,12 @@ body {
 @media (min-width: 768px) {
     .navegacion-principal {
         flex-direction: row;
-        justify-content: space-between; /*Alarja el menu*/
-    }    
+    }
 }
 
-.navegacion-principal a{ /*menu barra*/
-    display: block;
-    text-align: center;
+.navegacion-principal a{ /*menu o enlaces*/
+    display: block; /*centar el texto*/
+    text-align: center; /*centar el texto*/
     color: var(--blanco);
     text-decoration: none; /*elimina el subrayado*/
     font-size: 2rem; /*tamaño de letra*/
@@ -57,10 +56,4 @@ body {
 .navegacion-principal a:hover{/*pseudo clases que inspeciona al elemento*/
     background-color: var(--primario); /*fondo amarillo de la barra*/
     color: var(--oscuro); /*hacer cambiar negro*/
-}
-
-@media (min-width: 480px){
-    body{
-        background-color: aqua;
-    }
 }
