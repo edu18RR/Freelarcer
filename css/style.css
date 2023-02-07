@@ -57,3 +57,9 @@ body {
     background-color: var(--primario); /*fondo amarillo de la barra*/
     color: var(--oscuro); /*hacer cambiar negro*/
 }
+
+.hero {
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat; /*no repetir img cuando esta pequeña*/
+    background-size: cover;/*definir el tamaño y cover toma todo el ancho*/
+}
