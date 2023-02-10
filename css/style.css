@@ -92,12 +92,18 @@ h1, h2, h3 {
 
     /*codigo para aplciar vertical y horizontal*/
     display: flex; /*linea horozontales*/
-    flex-direction: column; /*de arriva hacia abajo*/
-    align-items: center; /*centra el  contenido y ya no se aplica justify content */
+    flex-direction: column; /*de arriba en forma horizontal*/
+    align-items: center; /*centra el  contenido abajo pero se requiere el colum*/
     justify-content: center; /*centra todo el texto*/
 }
 
 .contenido-hero h2,
 .contenido-hero p {
     color: var(--blanco); /*color al texto*/
+}
+
+
+.ubicacion {
+    display: flex; /*junta un con otro arriba*/ /*alineado horizontalmente*/
+    align-items: flex-end;/*alinea vercalmente hacia abajo */
 }
