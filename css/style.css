@@ -48,7 +48,7 @@ body {
 }
 
 .sombra {
-    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
     background-color: var(--blanco);
     padding: 2rem;
     border-radius: 1rem;
@@ -109,13 +109,14 @@ h1, h2, h3 {
     color: var(--oscuro); /*hacer cambiar negro*/
 }
 
-/* Hero   */
+/* Hero  imagen detras de freelancer */
 .hero {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat; /*no repetir img cuando esta pequeña*/
     background-size: cover;/*definir el tamaño y cover toma todo el ancho*/
     height: 450px;
     position: relative; /*para que el  hijo se posicione de forma absoluta*/
+    margin-bottom: 2rem; /*La img de fondo es separada de mis servicio*/
 }
 
 .contenido-hero{
