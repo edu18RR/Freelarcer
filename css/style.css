@@ -143,3 +143,11 @@ h1, h2, h3 {
     display: flex; /*junta un con otro arriba*/ /*alineado horizontalmente*/
     align-items: flex-end;/*alinea vercalmente hacia abajo */
 }
+
+/**Servicios **/
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);  /*33.3*/
+    }    
+}
