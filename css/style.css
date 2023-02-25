@@ -39,12 +39,17 @@ body {
     border-radius: .5rem; /*borde de las esquinas boton*/
     width: 90%; /*se extienda a lo largo*/
     text-align: center; /*centrado*/
+    border: none;
 }
 
 @media (min-width: 480px) {
     .boton {
         width: auto; /*se  receta el valor de width del .boton*/
     }
+}
+
+.boton:hover {
+   cursor: pointer;
 }
 
 .sombra {
@@ -75,6 +80,24 @@ h1, h2, h3 {
 
 .titulo span{
     font-size: 2rem;/*Hacerlo pequeño*/
+}
+
+/*Utilidades*/
+.w-sm-100 {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .w-sm-100 {
+        width: auto;
+    }
+
+}
+.flex {
+    display: flex; 
+}
+.alinear-derecha {
+    justify-content: flex-end;
 }
 
 /* Navegacion proncipal */
@@ -199,6 +222,31 @@ h1, h2, h3 {
     font-weight: 700;
     margin-bottom: 2rem; /*Separacion de texto con el boton*/
     color: var(--primario);
+}
 
+.contenedor-campos {
+    
+}
 
+.campo {
+    margin-bottom: 1rem; /*separacion entre botones*/
+}
+
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+    /*Separacion a botones*/
+}
+
+.campo textarea {
+    height: 20rem;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem; /*espacio de hacia a fuera -se hace grande el cuadro text--*/
+    border-radius: .5rem;
 }
