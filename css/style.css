@@ -10,8 +10,16 @@
 html {
     font-size: 62%;
     box-sizing: border-box; /*   Hack para Box Model**/
+    scroll-snap-type: y mandatory;
 }
 
+/** Scroll Snap ----
+.servicios,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}**/
 
 *, *:before, *:after {/* el * seleciona todos elementos*/
     box-sizing: inherit;
